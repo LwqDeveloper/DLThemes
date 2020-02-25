@@ -30,7 +30,7 @@ CG_INLINE id lValueFromTuple(DLTuple tuple) {
 
 @class DLColorContainer;
 @interface UIView (DLThemes)
-@property (nonatomic, copy) DLTuple backgroundDLTuple; /** 写成属性只是为了 写代码的有 提示。。。 以下一样 */
+@property (nonatomic, copy) DLTuple backgroundDLTuple;
 - (DLColorContainer *)colorContainer;
 @end
 
